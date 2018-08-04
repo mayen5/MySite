@@ -87,7 +87,7 @@ body {
 .right{
     float: right;
     position: relative;
-    top: 0px;
+    top: -3px;
 }
 
 .contenedor-skill-a{
