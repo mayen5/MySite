@@ -1,8 +1,8 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>Mi Sitio Web</title>
-	<meta charset="utf-8" />
+    <title>Mi Bibliografía</title>
+    <meta charset="utf-8" />
     <link href="css/estilo.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
 
@@ -16,9 +16,9 @@
             <nav class="menu">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contacto">Contact</a></li>
-                    <li><a href="bibliografia.html">Bibliografía</a></li>
+                    <li><a href="index.html#skills">Skills</a></li>
+                    <li><a href="index.html#contacto">Contact</a></li>
+                    <li><a href="bibliografia.html">Bibliography</a></li>
                 </ul>
             </nav>
         </header>
@@ -30,32 +30,39 @@
             </div>
         </section>
     </div>
-    
-    <section id="skills" class="skills contenedor">
-        <h2>Mis Skills</h2>
-        <article class="skill">
-            <img src="imagenes/java.png" alt="JAVA" width="220" class="right" />
-            <div class="contenedor-skill-a">
-                <h3 class="titulo-b">Desarrollo con Java</h3>
-                <ol>
-                    <li>JPA</li>
-                    <li>JavaFx</li>
-                    <li>JDBC</li>
-                </ol>
-            </div>
-        </article>
-        <article class="skill">
-            <img src="imagenes/net.png" alt=".NET" width="350" class="left"/>
-            <div class="contenedor-skill-b">
-                <h3 class="titulo-b">Desarrollo con .NET</h3>
-                <ol>
-                    <li>Entity FrameWork</li>
-                    <li>LINQ</li>
-                    <li>WPF</li>
-                </ol>
-            </div>
-        </article>
+
+    <section class="tabla">
+        <div class="contenedor">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Año</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Item1</td>
+                        <td>1995</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et elementum tortor, eget semper urna. Curabitur dignissim volutpat felis viverra commodo. Sed eu nulla velit. Nullam in interdum massa. Nunc eu euismod justo. Pellentesque tempor nibh eu eros tempus efficitur. Nullam malesuada viverra diam et posuere. Quisque eget justo sodales, vulputate enim et, vulputate nunc. Aliquam ac diam et risus aliquam hendrerit.</td>
+                    </tr>
+                    <tr>
+                        <td>Item2</td>
+                        <td>2000</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et elementum tortor, eget semper urna. Curabitur dignissim volutpat felis viverra commodo. Sed eu nulla velit. Nullam in interdum massa. Nunc eu euismod justo. Pellentesque tempor nibh eu eros tempus efficitur. Nullam malesuada viverra diam et posuere. Quisque eget justo sodales, vulputate enim et, vulputate nunc. Aliquam ac diam et risus aliquam hendrerit.</td>
+                    </tr>
+                    <tr>
+                        <td>Item3</td>
+                        <td>2002</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et elementum tortor, eget semper urna. Curabitur dignissim volutpat felis viverra commodo. Sed eu nulla velit. Nullam in interdum massa. Nunc eu euismod justo. Pellentesque tempor nibh eu eros tempus efficitur. Nullam malesuada viverra diam et posuere. Quisque eget justo sodales, vulputate enim et, vulputate nunc. Aliquam ac diam et risus aliquam hendrerit.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+       
     </section>
+
     <footer class="footer">
         <div id="contacto" class="contenedor">
             <div class="contacto">
@@ -117,7 +124,7 @@
                         </label>
                     </div>
                 </div>
-                
+
                 <div class="col2">
                     <div>
                         <label for="comentario">Comentarios</label>
